@@ -1,0 +1,9 @@
+<script>
+  $.ajax({
+    dataType: 'json',
+    type: "GET",
+    url: 'http://localhost:4001/v1.0/DeviceInfo/InUse'
+  }).done(function(data) {
+    console.log(data)
+  });
+</script>
