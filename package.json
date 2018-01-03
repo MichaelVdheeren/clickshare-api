@@ -1,12 +1,12 @@
 {
   "name": "clickshare-api",
   "version": "0.1.0",
-  "description": "A wrapper library for the ClickShare Base Unit API",
+  "description": "An unofficial NodeJS wrapper library for the ClickShare Base Unit API",
   "main": "clickshare.js",
   "scripts": {
     "test": "mocha"
   },
-  "author": "",
+  "author": "Michael Vanderheeren",
   "license": "ISC",
   "dependencies": {
     "connect": "^3.4.1",

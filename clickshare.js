@@ -174,7 +174,5 @@
     }
   }
 
-  module.exports = {
-    Baseunit: Baseunit
-  };
+  module.exports = Baseunit
 }());
