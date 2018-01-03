@@ -1,3 +1,5 @@
+// An example in case you just want to create a proxy to the Base Unit
+
 var proxyOptions = {
 	host: 'https://192.168.0.114',
 	port: 4001

@@ -1,15 +1,23 @@
 {
   "name": "clickshare-api",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.1.0",
+  "description": "A wrapper library for the ClickShare Base Unit API",
+  "main": "clickshare.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "connect": "^3.4.1",
     "http-proxy": "^1.13.3",
+    "lodash": "^4.17.4",
+    "lodash-humps": "^3.1.2",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0"
   }
 }
