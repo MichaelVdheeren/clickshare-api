@@ -1,7 +1,7 @@
 {
-  "name": "clickshare-api",
+  "name": "clickshare-utils",
   "version": "0.1.0",
-  "description": "An unofficial NodeJS wrapper library for the ClickShare Base Unit API",
+  "description": "An unofficial ClickShare utility package for NodeJS",
   "main": "clickshare.js",
   "scripts": {
     "test": "mocha"

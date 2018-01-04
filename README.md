@@ -1,16 +1,16 @@
-# ClickShare API wrapper
-An unofficial NodeJS wrapper library for the ClickShare Base Unit API
+# ClickShare Utilities
+An unofficial ClickShare utility package for NodeJS
 
 ## Installation
 
 Using npm:
 ```shell
-$ npm i --save clickshare-api
+$ npm i --save clickshare-utils
 ```
 
 In Node.js:
 ```js
-const clickshare = require('clickshare-api');
+const clickshare = require('clickshare-utils');
 // Load the constructor to create multiple base units.
 
 const Baseunit = clickshare.Baseunit;
