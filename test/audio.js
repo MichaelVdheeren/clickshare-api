@@ -1,5 +1,5 @@
 let assert     = require('chai').assert
-let Baseunit   = require('../clickshare');
+let Baseunit   = require('../clickshare').Baseunit;
 let baseunitip = require('./baseunit').ip;
 
 describe('Baseunit', function() {
