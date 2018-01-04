@@ -22,4 +22,9 @@ discovery.on('up', function(ip) {
   console.log('found a ClickShare on ip: '+ip);
 });
 discovery.start();
+
+// Set up a proxy to a Base Unit API at port 1000.
+const Proxy = clickshare.Proxy;
+let proxyOne = new Proxy('127.0.0.1',1000);
+proxyOne.start();
 ```
